@@ -21,7 +21,7 @@ while True:
           elif userChoice==3:
                print('you choose Scissors')  
                YourChoice="Rock"
-          else :
+          else 
                print('Invalid Choice please resart the game and input correct choice')
                exit()
           computerChoice =random.choice(choice) 
