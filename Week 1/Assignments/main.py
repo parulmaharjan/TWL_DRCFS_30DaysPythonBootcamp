@@ -18,10 +18,10 @@ while True:
                YourChoice="Rock"
           elif userChoice==2:
                print('your choose Paper')
-               YourChoice="Rock"
+               YourChoice="Paper"
           elif userChoice==3:
                print('you choose Scissors')  
-               YourChoice="Rock"
+               YourChoice="Scissors"
           else: 
                print('Invalid Choice please resart the game and input correct choice')
                exit()
@@ -74,6 +74,6 @@ for i in range(1,6):
     elif userInput<randomnumber:
         print("*****your guess is low*****");  
 print("actual number to be guessed:",randomnumber)      
-if i == 5:
+     if i == 5:
     print("***** Try again!!!You're a bad guesser*****")
 
